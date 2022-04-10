@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Amazon Ember',arial,sans-serif;
+
+}
+#third {
+    height: 50px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Amazon Ember',arial,sans-serif;
+    /* color: white; */
+    font-size: 13px;
+}
+#third div{
+    padding-left: 1.5rem;
+}
+
+.rack{
+    width: 80px;
+    height: 40px;
+}
+
+.breadcrumbs{
+    font-size: 12px;
+    color: rgb(81, 81, 81);
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}

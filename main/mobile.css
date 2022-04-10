@@ -1,0 +1,42 @@
+@media (max-width:900px) {
+
+    #main {
+        display: flex;
+        align-items: center;
+        background-color: #121921;
+        color: white;
+        width: 100%;
+        justify-content: space-between;
+        height: 60px;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+    }
+    .logo {
+        height: 80%;
+        object-fit: cover;
+        }
+        .logo:hover {
+            border: 1px solid white;
+        }
+
+        #cart{
+            display: flex; 
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+        #delivery{
+            display: none;
+        }
+        #hello {
+            display: none;
+        }
+        #alldep{
+            display: none;
+        }
+        .part2{
+            display: none;
+        }
+}
